@@ -47,3 +47,23 @@ skills; read by `/lint`.
 2026-05-04 04:06 ingest raw/papers/shen2025codi.pdf
 2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2505.12514 → raw/papers/zhu2025reasoning.pdf
 2026-05-04 04:06 ingest raw/papers/zhu2025reasoning.pdf
+2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2502.09992 → raw/papers/nie2025large.pdf
+2026-05-04 04:10 ingest raw/papers/nie2025large.pdf
+2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2310.16834 → raw/papers/lou2024discrete.pdf
+2026-05-04 04:10 ingest raw/papers/lou2024discrete.pdf
+2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2406.07524 → raw/papers/sahoo2024simple.pdf
+2026-05-04 04:10 ingest raw/papers/sahoo2024simple.pdf
+2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2506.20639 → raw/papers/gong2025diffucoder.pdf
+2026-05-04 04:10 ingest raw/papers/gong2025diffucoder.pdf
+2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2506.17298 → raw/papers/khanna2025mercury.pdf
+2026-05-04 04:10 ingest raw/papers/khanna2025mercury.pdf
+2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2509.01142 → raw/papers/xie2025dream.pdf
+2026-05-04 04:10 ingest raw/papers/xie2025dream.pdf
+2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2512.13586 → raw/papers/li2026refusion.pdf
+2026-05-04 04:10 ingest raw/papers/li2026refusion.pdf
+2026-05-04 04:10 fetch-paper https://github.com/VILA-Lab/Awesome-DLMs → raw/repos/vila-awesome-dlms.md
+2026-05-04 04:10 ingest raw/repos/vila-awesome-dlms.md
+2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2506.13759 → raw/papers/yu2025discrete.pdf
+2026-05-04 04:10 ingest raw/papers/yu2025discrete.pdf
+2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2603.22075 → raw/papers/vicentino2026autoregressive.pdf
+2026-05-04 04:10 ingest raw/papers/vicentino2026autoregressive.pdf
