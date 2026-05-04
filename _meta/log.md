@@ -67,3 +67,21 @@ skills; read by `/lint`.
 2026-05-04 04:10 ingest raw/papers/yu2025discrete.pdf
 2026-05-04 04:10 fetch-paper https://arxiv.org/abs/2603.22075 → raw/papers/vicentino2026autoregressive.pdf
 2026-05-04 04:10 ingest raw/papers/vicentino2026autoregressive.pdf
+2026-05-04 04:13 fetch-paper https://arxiv.org/abs/2412.17747 → raw/papers/liu2024deliberation.pdf
+2026-05-04 04:13 ingest raw/papers/liu2024deliberation.pdf
+2026-05-04 04:13 fetch-paper https://arxiv.org/abs/2402.15391 → raw/papers/bruce2024genie.pdf
+2026-05-04 04:13 ingest raw/papers/bruce2024genie.pdf
+2026-05-04 04:13 fetch-paper https://arxiv.org/abs/2410.11758 → raw/papers/ye2024latent.pdf
+2026-05-04 04:13 ingest raw/papers/ye2024latent.pdf
+2026-05-04 04:13 fetch-paper https://liralab.usc.edu/.../liang2025clam.pdf → raw/papers/liang2025clam.pdf
+2026-05-04 04:13 ingest raw/papers/liang2025clam.pdf
+2026-05-04 04:13 fetch-paper https://arxiv.org/abs/2502.00379 → raw/papers/nikulin2025latent.pdf
+2026-05-04 04:13 ingest raw/papers/nikulin2025latent.pdf
+2026-05-04 04:13 fetch-paper https://arxiv.org/abs/2302.04761 → raw/papers/schick2023toolformer.pdf
+2026-05-04 04:13 ingest raw/papers/schick2023toolformer.pdf
+2026-05-04 04:13 fetch-paper https://arxiv.org/abs/2506.15691 → raw/papers/zhang2025what.pdf
+2026-05-04 04:13 ingest raw/papers/zhang2025what.pdf
+2026-05-04 04:13 fetch-paper https://arxiv.org/abs/2503.18938 → raw/papers/gao2025adaworld.pdf
+2026-05-04 04:13 ingest raw/papers/gao2025adaworld.pdf
+2026-05-04 04:13 fetch-paper https://arxiv.org/abs/2510.17111 → raw/papers/guan2025efficient.pdf
+2026-05-04 04:13 ingest raw/papers/guan2025efficient.pdf
