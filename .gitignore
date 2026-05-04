@@ -18,6 +18,9 @@ __pycache__/
 .DS_Store
 *.swp
 
+# Per-session operational telemetry (not knowledge)
+_meta/token_log.ndjson
+
 # Large binary artifacts that should not be in Git
 *.ckpt
 *.pt
