@@ -27,3 +27,23 @@ skills; read by `/lint`.
 2026-05-04 04:02 ingest raw/papers/zhang2025memory.pdf
 2026-05-04 04:02 fetch-paper https://github.com/apple/ml-clara → raw/repos/apple-ml-clara.md
 2026-05-04 04:02 ingest raw/repos/apple-ml-clara.md
+2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2412.06769 → raw/papers/hao2024training.pdf
+2026-05-04 04:06 ingest raw/papers/hao2024training.pdf
+2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2502.05171 → raw/papers/geiping2025scaling.pdf
+2026-05-04 04:06 ingest raw/papers/geiping2025scaling.pdf
+2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2310.02226 → raw/papers/goyal2024think.pdf
+2026-05-04 04:06 ingest raw/papers/goyal2024think.pdf
+2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2511.08983 → raw/papers/piao2025spiralthinker.pdf
+2026-05-04 04:06 ingest raw/papers/piao2025spiralthinker.pdf
+2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2507.06203 → raw/papers/zhu2025survey.pdf
+2026-05-04 04:06 ingest raw/papers/zhu2025survey.pdf
+2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2505.18962 → raw/papers/wang2025system.pdf
+2026-05-04 04:06 ingest raw/papers/wang2025system.pdf
+2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2412.13171 → raw/papers/cheng2024compressed.pdf
+2026-05-04 04:06 ingest raw/papers/cheng2024compressed.pdf
+2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2311.01460 → raw/papers/deng2023implicit.pdf
+2026-05-04 04:06 ingest raw/papers/deng2023implicit.pdf
+2026-05-04 04:06 fetch-paper https://aclanthology.org/2025.emnlp-main.36 → raw/papers/shen2025codi.pdf
+2026-05-04 04:06 ingest raw/papers/shen2025codi.pdf
+2026-05-04 04:06 fetch-paper https://arxiv.org/abs/2505.12514 → raw/papers/zhu2025reasoning.pdf
+2026-05-04 04:06 ingest raw/papers/zhu2025reasoning.pdf
