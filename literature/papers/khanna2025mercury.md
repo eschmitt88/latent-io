@@ -2,12 +2,17 @@
 kind: paper
 title: "Mercury: Ultra-Fast Language Models Based on Diffusion"
 authors: ["Samar Khanna", "Siddhant Kharbanda", "Shufan Li", "Harshit Varma", "Eric Wang", "Sawyer Birnbaum", "Ziyang Luo", "Yanis Miraoui", "Akash Palrecha", "Stefano Ermon", "Aditya Grover", "Volodymyr Kuleshov"]
+institutions: ["Inception Labs"]
 year: 2025
 venue: "arXiv (Inception Labs)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2506.17298"
+code_url: null
+citations: null
 source: "raw/papers/khanna2025mercury.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 3
 status: skimmed
 related_experiments: []
 related_concepts: []
@@ -41,6 +46,10 @@ Inception Labs' commercial-scale diffusion LLM family. Mercury Coder Mini and Sm
 
 - Technical report; full training details and architecture choices are not exhaustively documented.
 - Model weights are commercial — not directly usable as a project base model.
+
+## Trust signals
+
+- **Credibility:** 3 — Inception Labs commercial tech report; arXiv preprint, no peer review; closed model, no code (API only). Independent third-party benchmarks add some weight.
 
 ## Follow-up
 

@@ -2,12 +2,17 @@
 kind: paper
 title: "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning"
 authors: ["Jie He", "Richard He Bai", "Sinead Williamson", "Jeff Z. Pan", "Navdeep Jaitly", "Yizhe Zhang"]
+institutions: ["Apple", "University of Edinburgh"]
 year: 2025
 venue: "arXiv (Apple, U. Edinburgh)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2511.18659"
+code_url: "https://github.com/apple/ml-clara"
+citations: null
 source: "raw/papers/he2025bridging.pdf"
 added: "2026-05-04"
 relevance: 5
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["latent-query", "latent-index", "retrieval-as-layer"]
@@ -46,6 +51,10 @@ A unified RAG framework where documents are encoded once into a compact set of "
 - 16× compression is reported as a sweet spot, but the failure mode at higher ratios (information collapse vs. graceful degradation) isn't characterized in the abstract.
 - Embedding-compatibility question (NOTES.md open #1) is real: the compressor and the generator share base weights here, so drift is bounded — but this design assumes static retrieval; live encoding of in-flight text is unstudied.
 - Latent queries are uninterpretable in the strict sense, but the keyword-decode trick (showing memory-token decodes contain reasoning hops) is a useful proxy this project should adopt.
+
+## Trust signals
+
+- **Credibility:** 4 — Apple + U. Edinburgh; arXiv preprint, not yet peer-reviewed; official code released (apple/ml-clara).
 
 ## Follow-up
 

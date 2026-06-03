@@ -2,12 +2,17 @@
 kind: paper
 title: "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation"
 authors: ["Shansan Gong", "Ruixiang Zhang", "Huangjie Zheng", "Jiatao Gu", "Navdeep Jaitly", "Lingpeng Kong", "Yizhe Zhang"]
+institutions: ["Apple", "The University of Hong Kong"]
 year: 2025
 venue: "arXiv (Apple, HKU)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2506.20639"
+code_url: "https://github.com/apple/ml-diffucoder"
+citations: null
 source: "raw/papers/gong2025diffucoder.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["commitment-boundary"]
@@ -42,6 +47,10 @@ tags: ["diffusion-lm", "code-generation", "AR-ness", "coupled-grpo", "non-left-t
 
 - AR-ness metric is descriptive; whether non-AR generation *causes* the quality gain or just correlates with it is not isolated.
 - 7B is small enough to be trainable in academia but the comparison against frontier code LMs is constrained.
+
+## Trust signals
+
+- **Credibility:** 4 — Apple + HKU; arXiv preprint, not yet peer-reviewed; official code released (apple/ml-diffucoder).
 
 ## Follow-up
 

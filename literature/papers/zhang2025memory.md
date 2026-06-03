@@ -2,12 +2,17 @@
 kind: paper
 title: "Memory in Large Language Models: Mechanisms, Evaluation and Evolution"
 authors: ["Dianxing Zhang", "Wendong Li", "Kani Song", "Jiaye Lu", "Gang Li", "Liuchun Yang", "Sheng Li"]
+institutions: ["Digital China AI Research Institute"]
 year: 2025
 venue: "arXiv (Digital China AI Research)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2509.18868"
+code_url: null
+citations: null
 source: "raw/papers/zhang2025memory.pdf"
 added: "2026-05-04"
 relevance: 2
+credibility: 2
 status: skimmed
 related_experiments: []
 related_concepts: ["latent-index"]
@@ -38,6 +43,10 @@ N/A — survey.
 ## Critique / open questions
 
 - A taxonomy is only as useful as the projects that adopt it. The four-way split is reasonable but architecturally coarse — "external memory" lumps RAG with persistent KV caches with vector stores.
+
+## Trust signals
+
+- **Credibility:** 2 — Digital China AI Research; arXiv survey, no peer review; no code. Industrial single-org survey, mixed signals.
 
 ## Follow-up
 

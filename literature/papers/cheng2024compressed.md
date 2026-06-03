@@ -2,12 +2,17 @@
 kind: paper
 title: "Compressed Chain of Thought: Efficient Reasoning through Dense Representations"
 authors: ["Jeffrey Cheng", "Benjamin Van Durme"]
+institutions: ["Johns Hopkins University"]
 year: 2024
 venue: "arXiv (JHU)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2412.13171"
+code_url: null
+citations: null
 source: "raw/papers/cheng2024compressed.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 3
 status: skimmed
 related_experiments: []
 related_concepts: ["continuous-thought", "commitment-boundary"]
@@ -40,6 +45,10 @@ Generates "contentful, continuous, variable-length contemplation tokens" — com
 
 - Variable-length policy is learned implicitly; no explicit uncertainty-driven termination criterion.
 - "Contemplation tokens" overlap conceptually with Coconut's continuous thoughts and pause tokens — unclear what unique mechanism CCoT contributes beyond variable length.
+
+## Trust signals
+
+- **Credibility:** 3 — JHU NLP group; arXiv preprint, no peer review; no code link in note. Reputable group, partial signals.
 
 ## Follow-up
 

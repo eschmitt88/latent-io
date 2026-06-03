@@ -2,12 +2,17 @@
 kind: paper
 title: "Latent Abstraction for Retrieval-Augmented Generation (LAnR)"
 authors: ["Ha Lan N.T", "Minh-Anh Nguyen", "Dung D. Le"]
+institutions: ["Center for AI Research, VinUniversity"]
 year: 2026
 venue: "arXiv (VinUniversity)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2604.17866"
+code_url: null
+citations: null
 source: "raw/papers/lan2026latent.pdf"
 added: "2026-05-04"
 relevance: 5
+credibility: 2
 status: skimmed
 related_experiments: []
 related_concepts: ["latent-query", "latent-index", "uncertainty-trigger", "retrieval-as-layer"]
@@ -44,6 +49,10 @@ A single LLM performs encoding, retrieval, and generation entirely in its own la
 - Single-model encode+retrieve+generate ties the index encoder to the generator's training; live-encoding new documents during deployment requires the generator's encoding head to remain stable as the model is updated. The embedding-compatibility open question (NOTES.md #1) is not solved here, only side-stepped.
 - Sufficiency-from-entropy is elegant but can be fooled by confidently-wrong answers — the head learns to predict entropy, not correctness.
 - Scaling: tested on QA benchmarks; behavior under long-form generation, code, or settings where "sufficient evidence" is ill-defined isn't characterized.
+
+## Trust signals
+
+- **Credibility:** 2 — VinUniversity; arXiv preprint, no peer review; no code released. Single small group, mixed signals.
 
 ## Follow-up
 

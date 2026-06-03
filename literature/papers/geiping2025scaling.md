@@ -2,12 +2,17 @@
 kind: paper
 title: "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach"
 authors: ["Jonas Geiping", "Sean McLeish", "Neel Jain", "John Kirchenbauer", "Siddharth Singh", "Brian R. Bartoldson", "Bhavya Kailkhura", "Abhinav Bhatele", "Tom Goldstein"]
+institutions: ["ELLIS Institute Tübingen / Max-Planck Institute for Intelligent Systems / Tübingen AI Center", "University of Maryland, College Park", "Lawrence Livermore National Laboratory"]
 year: 2025
 venue: "NeurIPS 2025 spotlight"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2502.05171"
+code_url: "https://github.com/seal-rg/recurrent-pretraining"
+citations: null
 source: "raw/papers/geiping2025scaling.pdf"
 added: "2026-05-04"
 relevance: 5
+credibility: 5
 status: skimmed
 related_experiments: []
 related_concepts: ["continuous-thought", "commitment-boundary"]
@@ -43,6 +48,10 @@ A novel LM architecture that scales test-time compute by *iterating a recurrent 
 - Recurrent-block training is harder to optimize than standard transformer training (vanishing/exploding gradients).
 - Deeper unrolling helps on hard reasoning; less clear it composes naturally with retrieval or tool use.
 - "How deep is enough" is implicit — no learned termination signal; the user picks depth at inference.
+
+## Trust signals
+
+- **Credibility:** 5 — Top labs (ELLIS/MPI, UMD, LLNL); NeurIPS 2025 spotlight peer-reviewed; code + model weights (Huginn) released.
 
 ## Follow-up
 

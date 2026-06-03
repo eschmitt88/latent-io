@@ -2,12 +2,17 @@
 kind: paper
 title: "Toolformer: Language Models Can Teach Themselves to Use Tools"
 authors: ["Timo Schick", "Jane Dwivedi-Yu", "Roberto Dessì", "Roberta Raileanu", "Maria Lomeli", "Luke Zettlemoyer", "Nicola Cancedda", "Thomas Scialom"]
+institutions: ["Meta AI Research", "Universitat Pompeu Fabra"]
 year: 2023
 venue: "NeurIPS 2023 (Meta AI)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2302.04761"
+code_url: null
+citations: null
 source: "raw/papers/schick2023toolformer.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 5
 status: skimmed
 related_experiments: []
 related_concepts: ["commitment-boundary"]
@@ -42,6 +47,10 @@ LMs teach themselves to use external tools via simple APIs by inserting candidat
 
 - Calls are token-emitted; the model commits to a tool, arguments, and decoded result through the token interface — exactly the regime this project is arguing against.
 - No chaining: each call is generated independently; the output of one call cannot be the input to another within the same generation.
+
+## Trust signals
+
+- **Credibility:** 5 — Meta AI; NeurIPS 2023 peer-reviewed; widely cited foundational tool-use work. No code link in note.
 
 ## Follow-up
 

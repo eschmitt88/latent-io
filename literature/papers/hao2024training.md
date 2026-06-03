@@ -2,12 +2,17 @@
 kind: paper
 title: "Training Large Language Models to Reason in a Continuous Latent Space (Coconut)"
 authors: ["Shibo Hao", "Sainbayar Sukhbaatar", "DiJia Su", "Xian Li", "Zhiting Hu", "Jason Weston", "Yuandong Tian"]
+institutions: ["FAIR at Meta", "UC San Diego"]
 year: 2024
 venue: "NeurIPS 2024 (FAIR Meta, UCSD)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2412.06769"
+code_url: "https://github.com/facebookresearch/coconut"
+citations: null
 source: "raw/papers/hao2024training.pdf"
 added: "2026-05-04"
 relevance: 5
+credibility: 5
 status: skimmed
 related_experiments: []
 related_concepts: ["continuous-thought", "commitment-boundary"]
@@ -44,6 +49,10 @@ Replace token-level chain-of-thought with continuous-thought: feed the model's l
 - Continuous thoughts are uninterpretable in the strict sense (NOTES.md open question #2). The paper's probes are useful but not a full debugging story.
 - Training requires the alternating regime — bolting continuous thoughts onto a frozen model is harder.
 - The "superposition" interpretation is empirical; the formal theoretical grounding came later (`zhu2025reasoning`).
+
+## Trust signals
+
+- **Credibility:** 5 — FAIR Meta + UCSD; NeurIPS 2024 peer-reviewed; official code released (facebookresearch/coconut); load-bearing, well cited.
 
 ## Follow-up
 

@@ -2,12 +2,17 @@
 kind: paper
 title: "Generation-Augmented Generation: A Plug-and-Play Framework for Private Knowledge Injection in LLMs"
 authors: ["Rongji Li", "Jian Xu", "Yi Chen", "Xueqing Chen", "Yisheng Yang", "Jiayi Wang", "Xingyu Chen", "Chunyu Xie", "Dawei Leng", "Xu-Yao Zhang"]
+institutions: ["Institute of Automation, Chinese Academy of Sciences / UCAS / Zhongguancun Academy", "360 AI Research"]
 year: 2026
 venue: "ACM MM 2026 (CAS / 360 AI Research)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2601.08209"
+code_url: null
+citations: null
 source: "raw/papers/li2026generation.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 3
 status: skimmed
 related_experiments: []
 related_concepts: ["retrieval-as-layer", "latent-index"]
@@ -44,6 +49,10 @@ A retrieval-free knowledge-injection framework that distills question-conditione
 - "Plug-and-play" depends on the experts staying compatible with the base's residual-stream geometry — drift in either side breaks the gate.
 - Multi-slot memory is constant-budget per expert but scales linearly in number of experts.
 - Evaluation is QA-focused; whether the latent interface carries enough bandwidth for *generation*-heavy domain tasks (long-form synthesis, code) is untested.
+
+## Trust signals
+
+- **Credibility:** 3 — CAS + 360 AI Research; ACM MM 2026 peer-reviewed; no code link in note. Venue lifts it; reproducibility unverified.
 
 ## Follow-up
 

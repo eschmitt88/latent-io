@@ -2,12 +2,17 @@
 kind: paper
 title: "Reasoning by Superposition: A Theoretical Perspective on Chain of Continuous Thought"
 authors: ["Hanlin Zhu", "Shibo Hao", "Zhiting Hu", "Jiantao Jiao", "Stuart Russell", "Yuandong Tian"]
+institutions: ["UC Berkeley", "UC San Diego", "Meta AI"]
 year: 2025
 venue: "arXiv (Berkeley, UCSD, Meta)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2505.12514"
+code_url: "https://github.com/Ber666/reasoning-by-superposition"
+citations: null
 source: "raw/papers/zhu2025reasoning.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["continuous-thought"]
@@ -40,6 +45,10 @@ Theoretical analysis proving that a *two-layer* transformer with D steps of cont
 
 - Constructive proofs show what's *possible*; whether trained transformers actually use this superposition efficiently is empirical (Coconut's probes suggest yes, partially).
 - Graph reachability is one specific problem class; the result should generalize to other search problems but isn't proven for all.
+
+## Trust signals
+
+- **Credibility:** 4 — Berkeley/UCSD/Meta (Russell, Tian); arXiv preprint, not yet peer-reviewed; code released (Ber666/reasoning-by-superposition).
 
 ## Follow-up
 

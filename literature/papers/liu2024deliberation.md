@@ -2,12 +2,17 @@
 kind: paper
 title: "Deliberation in Latent Space via Differentiable Cache Augmentation"
 authors: ["Luyang Liu", "Jonas Pfeiffer", "Jiaxing Wu", "Jun Xie", "Arthur Szlam"]
+institutions: ["Google DeepMind"]
 year: 2024
 venue: "arXiv (Google DeepMind)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2412.17747"
+code_url: null
+citations: null
 source: "raw/papers/liu2024deliberation.pdf"
 added: "2026-05-04"
 relevance: 5
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["action-observation-trace", "continuous-thought", "retrieval-as-layer"]
@@ -43,6 +48,10 @@ A frozen LLM is augmented with an offline coprocessor that operates on the model
 
 - The "tool" here is a generic computational augmentation, not a typed external operation (retrieval, code execution). Generalizing to tool-use means designing per-tool coprocessors or learning routing.
 - Asynchrony is presented as a feature; for action–observation traces (NOTES.md design-move 4), the timing of the augmentation matters and cannot be fully decoupled.
+
+## Trust signals
+
+- **Credibility:** 4 — Google DeepMind; arXiv preprint, not yet peer-reviewed; no code released. Major-lab credibility, weighted down for no code.
 
 ## Follow-up
 

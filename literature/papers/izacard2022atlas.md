@@ -2,12 +2,17 @@
 kind: paper
 title: "Atlas: Few-shot Learning with Retrieval Augmented Language Models"
 authors: ["Gautier Izacard", "Patrick Lewis", "Maria Lomeli", "Lucas Hosseini", "Fabio Petroni", "Timo Schick", "Jane Dwivedi-Yu", "Armand Joulin", "Sebastian Riedel", "Edouard Grave"]
+institutions: ["Meta AI Research", "ENS, PSL University", "Inria", "University College London"]
 year: 2022
 venue: "JMLR 2023 (Meta AI)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2208.03299"
+code_url: null
+citations: null
 source: "raw/papers/izacard2022atlas.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["retrieval-as-layer", "latent-index"]
@@ -41,6 +46,10 @@ A jointly pretrained encoder-decoder retrieval-augmented LM; treats retrieved do
 
 - Documents are treated as latent variables in *training objective*, not in representation — they're still text passed to a text encoder. The "latent" framing is statistical, not architectural.
 - Retrieved documents are concatenated into the encoder context — long-context cost is real.
+
+## Trust signals
+
+- **Credibility:** 4 — Meta AI + ENS/Inria/UCL; JMLR 2023 peer-reviewed; no code link in note (reference impl exists). Strong on most axes.
 
 ## Follow-up
 

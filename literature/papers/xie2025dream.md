@@ -2,12 +2,17 @@
 kind: paper
 title: "Dream-Coder 7B: An Open Diffusion Language Model for Code"
 authors: ["Zhihui Xie", "Jiacheng Ye", "Lin Zheng", "Jiahui Gao", "Jingwei Dong", "Zirui Wu", "Xueliang Zhao", "Shansan Gong", "Xin Jiang", "Zhenguo Li", "Lingpeng Kong"]
+institutions: ["The University of Hong Kong", "Huawei Noah's Ark Lab"]
 year: 2025
 venue: "arXiv (HKU, Huawei Noah's Ark)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2509.01142"
+code_url: "https://github.com/DreamLM/Dream-Coder"
+citations: null
 source: "raw/papers/xie2025dream.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["commitment-boundary"]
@@ -42,6 +47,10 @@ Open-source 7B discrete diffusion LM for code, with emergent any-order generatio
 
 - "Any-order" is qualitative; the paper doesn't fully characterize when each strategy emerges.
 - AR-to-diffusion adaptation is appealing but loses some properties of from-scratch training (e.g. LLaDA's reversal-curse fix).
+
+## Trust signals
+
+- **Credibility:** 4 — HKU + Huawei Noah's Ark; arXiv preprint, not yet peer-reviewed; open model + code/checkpoints released (DreamLM/Dream-Coder).
 
 ## Follow-up
 
