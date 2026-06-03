@@ -2,12 +2,17 @@
 kind: paper
 title: "Implicit Chain of Thought Reasoning via Knowledge Distillation"
 authors: ["Yuntian Deng", "Kiran Prasad", "Roland Fernandez", "Paul Smolensky", "Vishrav Chaudhary", "Stuart Shieber"]
+institutions: ["Harvard University", "Allen Institute for AI", "Microsoft", "Johns Hopkins University"]
 year: 2023
 venue: "arXiv (Harvard, AI2, Microsoft, JHU)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2311.01460"
+code_url: null
+citations: null
 source: "raw/papers/deng2023implicit.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 3
 status: skimmed
 related_experiments: []
 related_concepts: ["continuous-thought"]
@@ -39,6 +44,10 @@ Distill explicit-CoT teacher *hidden states* into a student model, so the studen
 
 - Strong dependence on a quality teacher; circularity risk with imperfect supervision.
 - The distillation signal that makes this work — gradient flow from a richly-CoT-supervised teacher's hidden states — is exactly what CODI (`shen2025codi`) later replaces with self-distillation.
+
+## Trust signals
+
+- **Credibility:** 3 — Strong multi-lab (Harvard/AI2/Microsoft/JHU); arXiv preprint, no peer review; no code link captured. Reputable groups offset missing peer review.
 
 ## Follow-up
 

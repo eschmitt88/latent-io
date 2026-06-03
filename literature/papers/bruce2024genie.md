@@ -2,12 +2,17 @@
 kind: paper
 title: "Genie: Generative Interactive Environments"
 authors: ["Jake Bruce", "Michael Dennis", "Ashley Edwards", "Jack Parker-Holder", "Yuge (Jimmy) Shi", "Edward Hughes", "Matthew Lai", "Aditi Mavalankar", "Richie Steigerwald", "Chris Apps", "Yusuf Aytar", "Sarah Bechtle", "Feryal Behbahani", "Stephanie Chan", "Nicolas Heess", "Lucy Gonzalez", "Simon Osindero", "Sherjil Ozair", "Scott Reed", "Jingwei Zhang", "Konrad Zolna", "Jeff Clune", "Nando de Freitas", "Satinder Singh", "Tim Rocktäschel"]
+institutions: ["Google DeepMind", "University of British Columbia"]
 year: 2024
 venue: "arXiv (Google DeepMind)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2402.15391"
+code_url: null
+citations: null
 source: "raw/papers/bruce2024genie.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["action-observation-trace"]
@@ -43,6 +48,10 @@ The first generative interactive environment trained unsupervised on Internet vi
 
 - Discrete (codebook-quantized) latent actions; later work (CLAM, LAOM) argues continuous latents are better for fine-grained motion.
 - "Foundation world model" framing is provocative but the model is closer to a foundation video-model with action conditioning than a planning-capable world model.
+
+## Trust signals
+
+- **Credibility:** 4 — Google DeepMind; arXiv preprint, not yet peer-reviewed; no public code (model not released). Major-lab credibility, weighted down for reproducibility.
 
 ## Follow-up
 

@@ -2,12 +2,17 @@
 kind: paper
 title: "SpiralThinker: Latent Reasoning through an Iterative Process with Text–Latent Interleaving"
 authors: ["Shengmin Piao", "Sanghyun Park"]
+institutions: ["Yonsei University"]
 year: 2025
 venue: "arXiv (Yonsei University)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2511.08983"
+code_url: "https://github.com/shengminp/SpiralThinker"
+citations: null
 source: "raw/papers/piao2025spiralthinker.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 3
 status: skimmed
 related_experiments: []
 related_concepts: ["continuous-thought", "commitment-boundary"]
@@ -43,6 +48,10 @@ A stabilized iterative-latent-reasoning framework that performs progressive upda
 - The "structured annotations" requirement is significant overhead — supervises *where* to interleave, which the project's vision wants the model to figure out.
 - The alignment regularizer constrains latent representations to be coherent across iterations; whether this loses some of Coconut's superposition benefit is unstudied.
 - Inference: starts with a fixed number `N` of latent tokens; not adaptive.
+
+## Trust signals
+
+- **Credibility:** 3 — Yonsei University; arXiv preprint, no peer review; official code released (shengminp/SpiralThinker).
 
 ## Follow-up
 

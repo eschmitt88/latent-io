@@ -2,12 +2,17 @@
 kind: paper
 title: "Autoregressive vs. Masked Diffusion Language Models: A Controlled Comparison"
 authors: ["Caio Vicentino"]
+institutions: ["Independent Researcher"]
 year: 2026
 venue: "arXiv (independent)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2603.22075"
+code_url: "https://github.com/caiovicentino/arche"
+citations: null
 source: "raw/papers/vicentino2026autoregressive.pdf"
 added: "2026-05-04"
 relevance: 2
+credibility: 2
 status: skimmed
 related_experiments: []
 related_concepts: []
@@ -40,6 +45,10 @@ Independent controlled comparison of AR vs. MDLM at matched data (50M TinyStorie
 
 - TinyStories scale is small; whether the diversity–fluency split holds at frontier scale isn't tested.
 - Validation losses across paradigms aren't directly comparable (different objectives) — the paper acknowledges this.
+
+## Trust signals
+
+- **Credibility:** 2 — Independent single author; arXiv preprint, no peer review; code released (caiovicentino/arche). Full code release lifts an otherwise weak prior.
 
 ## Follow-up
 

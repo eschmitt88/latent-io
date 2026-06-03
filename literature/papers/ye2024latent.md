@@ -2,12 +2,17 @@
 kind: paper
 title: "Latent Action Pretraining from Videos (LAPA)"
 authors: ["Seonghyeon Ye", "Joel Jang", "Byeongguk Jeon", "Sejune Joo", "Jianwei Yang", "Baolin Peng", "Ajay Mandlekar", "Reuben Tan", "Yu-Wei Chao", "Yuchen Lin", "Lars Liden", "Kimin Lee", "Jianfeng Gao", "Luke Zettlemoyer", "Dieter Fox", "Minjoon Seo"]
+institutions: ["KAIST", "University of Washington", "Microsoft Research", "NVIDIA", "Allen Institute for AI"]
 year: 2024
 venue: "ICLR 2025 (KAIST, UW, Microsoft, NVIDIA, AI2)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2410.11758"
+code_url: "https://latentactionpretraining.github.io"
+citations: null
 source: "raw/papers/ye2024latent.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 5
 status: skimmed
 related_experiments: []
 related_concepts: ["action-observation-trace"]
@@ -41,6 +46,10 @@ First unsupervised method for pretraining Vision-Language-Action models *without
 
 - VQ-VAE quantization is the design choice CLAM and LAOM later argue against; LAPA inherits the codebook-collapse and granularity-mismatch issues that come with discrete latents.
 - "Latent action" is action-relevant change in observation space; if observation contains distractors (LAOM's concern), the latent is contaminated.
+
+## Trust signals
+
+- **Credibility:** 5 — KAIST/UW/Microsoft/NVIDIA/AI2; ICLR 2025 peer-reviewed; model checkpoints + code released (LAPA).
 
 ## Follow-up
 

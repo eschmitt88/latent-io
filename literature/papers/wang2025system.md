@@ -2,12 +2,17 @@
 kind: paper
 title: "System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts"
 authors: ["Xiaoqiang Wang", "Suyuchen Wang", "Yun Zhu", "Bang Liu"]
+institutions: ["DIRO & Institut Courtois, Université de Montréal", "Mila - Quebec AI Institute", "Canada CIFAR AI Chair"]
 year: 2025
 venue: "NeurIPS 2025 (Mila / U. Montréal)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2505.18962"
+code_url: null
+citations: null
 source: "raw/papers/wang2025system.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["continuous-thought", "uncertainty-trigger"]
@@ -41,6 +46,10 @@ Adaptive reasoning framework that distills text CoT into latent continuous thoug
 
 - Two-stage distillation requires a well-trained text-CoT teacher to start; doesn't bootstrap from scratch.
 - The shortcut policy is learned per-token implicitly — interpretability of "why this step got the shortcut" is opaque.
+
+## Trust signals
+
+- **Credibility:** 4 — Mila / U. Montréal; NeurIPS 2025 peer-reviewed; no code link in note. Strong group and venue.
 
 ## Follow-up
 

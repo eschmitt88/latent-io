@@ -2,12 +2,17 @@
 kind: paper
 title: "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution (SEDD)"
 authors: ["Aaron Lou", "Chenlin Meng", "Stefano Ermon"]
+institutions: ["Stanford University", "Pika Labs"]
 year: 2024
 venue: "ICML 2024 Best Paper (Stanford)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2310.16834"
+code_url: null
+citations: null
 source: "raw/papers/lou2024discrete.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 5
 status: skimmed
 related_experiments: []
 related_concepts: []
@@ -42,6 +47,10 @@ Introduces *score entropy*, a novel loss that extends score matching to discrete
 
 - Theoretical contribution; large-scale instantiation came from later work (LLaDA, MDLM).
 - "Controllable" generation is a property of the framework but the practical scope of the control isn't characterized.
+
+## Trust signals
+
+- **Credibility:** 5 — Stanford (Ermon group); ICML 2024 Best Paper; widely reproduced (SEDD). No code link in note but reference impl public.
 
 ## Follow-up
 

@@ -2,12 +2,17 @@
 kind: paper
 title: "Large Language Diffusion Models (LLaDA)"
 authors: ["Shen Nie", "Fengqi Zhu", "Zebin You", "Xiaolu Zhang", "Jingyang Ou", "Jun Hu", "Jun Zhou", "Yankai Lin", "Ji-Rong Wen", "Chongxuan Li"]
+institutions: ["Gaoling School of AI, Renmin University of China", "Ant Group"]
 year: 2025
 venue: "arXiv (RUC, Ant Group)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2502.09992"
+code_url: "https://ml-gsai.github.io/LLaDA-demo/"
+citations: null
 source: "raw/papers/nie2025large.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["commitment-boundary"]
@@ -41,6 +46,10 @@ tags: ["diffusion-lm", "non-autoregressive", "scaling", "reversal-curse"]
 
 - Inference cost is higher per output token than AR, even though throughput per *generation step* is higher because of parallel denoising.
 - KV cache reuse is broken by the parallel/iterative decoding; ReFusion (`li2026refusion`) addresses this later.
+
+## Trust signals
+
+- **Credibility:** 4 — RUC GSAI + Ant Group; NeurIPS 2025 peer-reviewed; project page + code released (LLaDA).
 
 ## Follow-up
 

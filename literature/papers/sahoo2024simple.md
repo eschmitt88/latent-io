@@ -2,12 +2,17 @@
 kind: paper
 title: "Simple and Effective Masked Diffusion Language Models (MDLM)"
 authors: ["Subham Sekhar Sahoo", "Marianne Arriola", "Yair Schiff", "Aaron Gokaslan", "Edgar Marroquin", "Justin T Chiu", "Alexander Rush", "Volodymyr Kuleshov"]
+institutions: ["Cornell Tech"]
 year: 2024
 venue: "NeurIPS 2024 (Cornell Tech)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2406.07524"
+code_url: "https://github.com/kuleshov-group/mdlm"
+citations: null
 source: "raw/papers/sahoo2024simple.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 5
 status: skimmed
 related_experiments: []
 related_concepts: []
@@ -41,6 +46,10 @@ Masked discrete diffusion is more performant than previously thought. A modern t
 
 - "Approaches AR" is not "matches AR"; the gap is real but smaller than prior work suggested.
 - Rao-Blackwellization is a variance reduction; whether it changes the fundamental scaling behavior at very large scale is unstudied.
+
+## Trust signals
+
+- **Credibility:** 5 — Cornell Tech (Kuleshov/Rush); NeurIPS 2024 peer-reviewed; code + tutorial released (kuleshov-group/mdlm); foundational MDLM recipe.
 
 ## Follow-up
 

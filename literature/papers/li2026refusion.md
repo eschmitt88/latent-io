@@ -2,12 +2,17 @@
 kind: paper
 title: "ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding"
 authors: ["Jia-Nan Li", "Jian Guan", "Wei Wu", "Chongxuan Li"]
+institutions: ["Gaoling School of AI, Renmin University of China", "Ant Group", "Ant International"]
 year: 2026
 venue: "ICLR 2026 (RUC, Ant Group, Ant International)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2512.13586"
+code_url: "https://github.com/ML-GSAI/ReFusion"
+citations: null
 source: "raw/papers/li2026refusion.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["commitment-boundary"]
@@ -42,6 +47,10 @@ Hybrid that elevates parallel decoding from the token level to a *slot* level: e
 
 - Slot size is a hyperparameter; the paper picks one but the sensitivity isn't deeply analyzed.
 - AR-within-slot reintroduces local commitment; the design is a hybrid, not a pure non-AR architecture.
+
+## Trust signals
+
+- **Credibility:** 4 — RUC GSAI + Ant Group; ICLR 2026 peer-reviewed; official code + model released (ML-GSAI/ReFusion).
 
 ## Follow-up
 

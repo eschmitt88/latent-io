@@ -2,12 +2,17 @@
 kind: paper
 title: "Generalization through Memorization: Nearest Neighbor Language Models (kNN-LM)"
 authors: ["Urvashi Khandelwal", "Omer Levy", "Dan Jurafsky", "Luke Zettlemoyer", "Mike Lewis"]
+institutions: ["Stanford University", "Facebook AI Research"]
 year: 2020
 venue: "ICLR 2020"
+peer_reviewed: true
 url: "https://arxiv.org/abs/1911.00172"
+code_url: null
+citations: null
 source: "raw/papers/khandelwal2020generalization.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 5
 status: skimmed
 related_experiments: []
 related_concepts: ["latent-index", "retrieval-as-layer"]
@@ -43,6 +48,10 @@ Augment a pretrained LM by linearly interpolating its next-token distribution wi
 - Datastore is enormous (one entry per training context) and expensive to query at inference.
 - λ is fixed — no learned uncertainty-driven gating, which later work (LAnR) addresses.
 - Retrieval is *additive* over the LM's logits, not integrated into the residual stream — closer to "ensemble of LM and kNN" than "retrieval as a layer".
+
+## Trust signals
+
+- **Credibility:** 5 — Stanford + FAIR; ICLR 2020 peer-reviewed; foundational kNN-LM, heavily cited. No code link in note but widely reproduced.
 
 ## Follow-up
 

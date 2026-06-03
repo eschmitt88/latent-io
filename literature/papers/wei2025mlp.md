@@ -2,12 +2,17 @@
 kind: paper
 title: "MLP Memory: A Retriever-Pretrained Memory for Large Language Models"
 authors: ["Rubin Wei", "Jiaqi Cao", "Jiarui Wang", "Jushi Kai", "Qipeng Guo", "Bowen Zhou", "Zhouhan Lin"]
+institutions: ["LUMIA Lab, Shanghai Jiao Tong University", "Shanghai AI Laboratory", "Tsinghua University"]
 year: 2025
 venue: "arXiv (LUMIA Lab, SJTU)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2508.01832"
+code_url: "https://github.com/LUMIA-Group/MLPMemory"
+citations: null
 source: "raw/papers/wei2025mlp.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["latent-index"]
@@ -43,6 +48,10 @@ Replaces kNN-LM's vector datastore with a fully parameterized MLP that is pretra
 
 - The MLP is now a static snapshot of the corpus — updating knowledge requires re-distilling, which negates kNN-LM's "swap the datastore" advantage.
 - Distilling from a kNN target locks the system to whatever the kNN retriever was good at; if the retriever was suboptimal, the MLP inherits the suboptimality without the index's flexibility to be repaired.
+
+## Trust signals
+
+- **Credibility:** 4 — SJTU LUMIA + Shanghai AI Lab + Tsinghua; arXiv preprint, not yet peer-reviewed; code + HF collection released (LUMIA-Group/MLPMemory).
 
 ## Follow-up
 

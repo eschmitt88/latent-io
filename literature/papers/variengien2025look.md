@@ -2,12 +2,17 @@
 kind: paper
 title: "Look Before You Leap: Universal Emergent Mechanism for Retrieval in Language Models"
 authors: ["Alexandre Variengien", "Eric Winsor"]
+institutions: ["EU AI Office, European Commission", "UK AI Security Institute"]
 year: 2025
 venue: "ICLR 2025 (EU AI Office, UK AISI)"
+peer_reviewed: true
 url: "https://openreview.net/forum?id=ad36c2cfc423e75c6d68d751a955b22e"
+code_url: null
+citations: null
 source: "raw/papers/variengien2025look.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["retrieval-as-layer"]
@@ -42,6 +47,10 @@ Causal analysis on 18 open-source LMs (125M–70B) using a structured retrieval-
 
 - The ORION tasks are "structured retrieval" — clean entity-lookup style. Whether the same modular decomposition holds for messy in-context retrieval (long, partially-relevant documents; ambiguous queries) is open.
 - The intervention is *patching* hidden states at the last token. Inserting *new* information at that site — the project's actual goal — is a different operation than patching from a clean run.
+
+## Trust signals
+
+- **Credibility:** 4 — EU AI Office + UK AISI; ICLR 2025 peer-reviewed; no code link in note. Reputable orgs, careful mech-interp study.
 
 ## Follow-up
 

@@ -2,12 +2,17 @@
 kind: paper
 title: "What Do Latent Action Models Actually Learn?"
 authors: ["Chuheng Zhang", "Tim Pearce", "Pushi Zhang", "Kaixin Wang", "Xiaoyu Chen", "Wei Shen", "Li Zhao", "Jiang Bian"]
+institutions: ["Microsoft Research", "Tsinghua University"]
 year: 2025
 venue: "arXiv (Microsoft Research, Tsinghua)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2506.15691"
+code_url: null
+citations: null
 source: "raw/papers/zhang2025what.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["action-observation-trace"]
@@ -41,6 +46,10 @@ Analytical study of LAMs as a linear model that captures the essence of LAM lear
 
 - Linear model is illuminating but obviously misses nonlinear LAM behavior in real architectures.
 - "Controllable change" vs. "noise" is a useful dichotomy but real-world distinctions are messier.
+
+## Trust signals
+
+- **Credibility:** 4 — Microsoft Research + Tsinghua; arXiv preprint, not yet peer-reviewed; analytical study, no code link. Strong group offsets no code.
 
 ## Follow-up
 

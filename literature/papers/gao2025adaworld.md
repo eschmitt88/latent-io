@@ -2,12 +2,17 @@
 kind: paper
 title: "AdaWorld: Learning Adaptable World Models with Latent Actions"
 authors: ["Shenyuan Gao", "Siyuan Zhou", "Yilun Du", "Jun Zhang", "Chuang Gan"]
+institutions: ["HKUST", "Harvard University", "UMass Amherst", "MIT-IBM Watson AI Lab"]
 year: 2025
 venue: "arXiv (HKUST, MIT, U. Mass Amherst)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2503.18938"
+code_url: "https://adaptable-world-model.github.io"
+citations: null
 source: "raw/papers/gao2025adaworld.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["action-observation-trace"]
@@ -40,6 +45,10 @@ World-model framework that incorporates *latent action information during pretra
 ## Critique / open questions
 
 - "Adaptable" is demonstrated within the simulation-environment family tested; transfer to genuinely different domains (e.g. real-world robotic systems) is a separate harder problem.
+
+## Trust signals
+
+- **Credibility:** 4 — Strong multi-institution (HKUST/Harvard/UMass/MIT-IBM); ICML 2025 (PMLR) peer-reviewed; project page with code/site released.
 
 ## Follow-up
 

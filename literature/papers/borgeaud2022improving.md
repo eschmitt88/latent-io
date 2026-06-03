@@ -2,12 +2,17 @@
 kind: paper
 title: "Improving language models by retrieving from trillions of tokens (RETRO)"
 authors: ["Sebastian Borgeaud", "Arthur Mensch", "Jordan Hoffmann", "et al."]
+institutions: ["DeepMind"]
 year: 2022
 venue: "ICML 2022 (DeepMind)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2112.04426"
+code_url: null
+citations: null
 source: "raw/papers/borgeaud2022improving.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 5
 status: skimmed
 related_experiments: []
 related_concepts: ["retrieval-as-layer", "latent-index"]
@@ -43,6 +48,10 @@ DeepMind's foundational retrieval-augmented decoder: tokens are partitioned into
 - Retriever is frozen BERT — gradients don't flow back, so the retriever can't co-adapt with the generator (the problem CLaRa later solves).
 - Cross-attention happens at the *token* level on retrieved text — still token-mediated, not latent-vector retrieval. RETRO is the closest token-side ancestor of design-move 3, not its instantiation.
 - Test-time retrieval over a 2T-token store has nontrivial infrastructure cost; the paper assumes it as given.
+
+## Trust signals
+
+- **Credibility:** 5 — DeepMind; ICML 2022 peer-reviewed; influential/well-cited foundational RAG work. No code link in note but reference implementations exist.
 
 ## Follow-up
 

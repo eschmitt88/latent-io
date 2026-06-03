@@ -2,12 +2,17 @@
 kind: paper
 title: "Think before you speak: Training Language Models With Pause Tokens"
 authors: ["Sachin Goyal", "Ziwei Ji", "Ankit Singh Rawat", "Aditya Krishna Menon", "Sanjiv Kumar", "Vaishnavh Nagarajan"]
+institutions: ["Carnegie Mellon University", "Google Research"]
 year: 2024
 venue: "ICLR 2024 (CMU, Google Research)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2310.02226"
+code_url: null
+citations: null
 source: "raw/papers/goyal2024think.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["continuous-thought"]
@@ -42,6 +47,10 @@ Append a learnable "pause" token to the input prefix and delay output extraction
 - Mechanism is opaque — *what* the model does with the extra compute isn't characterized; the empirical bump is the only evidence.
 - Pause length is fixed (no adaptive policy).
 - Compared to Coconut and recurrent depth, the latent compute is much shallower (one layer-stack pass vs. recurrent unrolls).
+
+## Trust signals
+
+- **Credibility:** 4 — CMU + Google Research; ICLR 2024 peer-reviewed; no code link in note. Strong venue and groups.
 
 ## Follow-up
 

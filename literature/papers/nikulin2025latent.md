@@ -2,12 +2,17 @@
 kind: paper
 title: "Latent Action Learning Requires Supervision in the Presence of Distractors (LAOM)"
 authors: ["Alexander Nikulin", "Ilya Zisman", "Denis Tarasov", "Nikita Lyubaykin", "Andrei Polubarov", "Igor Kiselev", "Vladislav Kurenkov"]
+institutions: ["AIRI", "MIPT", "Skoltech", "Research Center for Trusted AI, ISP RAS", "Innopolis University", "Accenture"]
 year: 2025
 venue: "ICML 2025 (dunnolab)"
+peer_reviewed: true
 url: "https://arxiv.org/abs/2502.00379"
+code_url: null
+citations: null
 source: "raw/papers/nikulin2025latent.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 4
 status: skimmed
 related_experiments: []
 related_concepts: ["action-observation-trace"]
@@ -41,6 +46,10 @@ Pure unsupervised latent-action learning (à la LAPO) fails when observation str
 
 - Distracting Control Suite is synthetic; real-world video distractors have different structure.
 - "2.5% labels" is a small but non-zero overhead; whether even smaller fractions suffice is unstudied.
+
+## Trust signals
+
+- **Credibility:** 4 — AIRI/dunnolab consortium; ICML 2025 peer-reviewed; careful negative-finding study. No code link in note.
 
 ## Follow-up
 

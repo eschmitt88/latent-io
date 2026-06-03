@@ -2,12 +2,17 @@
 kind: paper
 title: "CLAM: Continuous Latent Action Models for Robot Learning from Unlabeled Demonstrations"
 authors: ["Anthony Liang", "Pavel Czempin", "Matthew Hong", "Yutai Zhou", "Erdem Bıyık", "Stephen Tu"]
+institutions: ["University of Southern California (CS and ECE Departments)"]
 year: 2025
 venue: "Liralab USC"
+peer_reviewed: unknown
 url: "https://liralab.usc.edu/pdfs/publications/liang2025clam.pdf"
+code_url: "https://clamrobot.github.io"
+citations: null
 source: "raw/papers/liang2025clam.pdf"
 added: "2026-05-04"
 relevance: 4
+credibility: 3
 status: skimmed
 related_experiments: []
 related_concepts: ["action-observation-trace"]
@@ -40,6 +45,10 @@ CLAM identifies two fixes that make latent-action models work for *fine-grained*
 
 - "Fine-grained continuous control" is the regime CLAM was designed for; CLAM's advantage over discrete LAMs on simple discrete-action tasks is less clear.
 - Joint training requires *some* labels; truly label-free latent-action pretraining (Genie's claim) is a separate goal.
+
+## Trust signals
+
+- **Credibility:** 3 — USC robotics group; venue peer-review status unclear from source; code + videos released (clamrobot.github.io). Reproducibility partly offsets unknown venue.
 
 ## Follow-up
 

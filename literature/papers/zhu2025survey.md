@@ -2,12 +2,17 @@
 kind: paper
 title: "A Survey on Latent Reasoning"
 authors: ["Rui-Jie Zhu", "Tianhao Peng", "Tianhao Cheng", "Xingwei Qu", "Jiaheng Liu", "Ge Zhang", "Wenhao Huang", "Jason Eshraghian", "et al."]
+institutions: ["M-A-P", "UCSC", "Fudan / NJU / PKU / RUC / U. Manchester / UW-Madison / PolyU (multi-institution)"]
 year: 2025
 venue: "arXiv (M-A-P, UCSC, multi-institution)"
+peer_reviewed: false
 url: "https://arxiv.org/abs/2507.06203"
+code_url: "https://github.com/multimodal-art-projection/LatentCoT-Horizon"
+citations: null
 source: "raw/papers/zhu2025survey.pdf"
 added: "2026-05-04"
 relevance: 3
+credibility: 3
 status: skimmed
 related_experiments: []
 related_concepts: ["continuous-thought"]
@@ -37,6 +42,10 @@ N/A — survey.
 ## Critique / open questions
 
 - Field is moving fast; surveys decay quickly. Use as orientation, not as the primary read.
+
+## Trust signals
+
+- **Credibility:** 3 — M-A-P + UCSC multi-institution; arXiv preprint, no peer review; companion paper-collection repo (LatentCoT-Horizon).
 
 ## Follow-up
 
