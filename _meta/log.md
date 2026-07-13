@@ -85,3 +85,6 @@ skills; read by `/lint`.
 2026-05-04 04:13 ingest raw/papers/gao2025adaworld.pdf
 2026-05-04 04:13 fetch-paper https://arxiv.org/abs/2510.17111 → raw/papers/guan2025efficient.pdf
 2026-05-04 04:13 ingest raw/papers/guan2025efficient.pdf
+2026-05-08 20:55 session_end session=88278404-a021-4790-b778-d99714564afe
+2026-05-11 20:12 session_end session=ab179471-564c-4c93-9654-904b43f8dee4
+2026-05-11 20:15 session_end session=88278404-a021-4790-b778-d99714564afe
