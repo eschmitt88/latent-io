@@ -3,6 +3,7 @@ kind: candidates
 topic: "diffusion language models"
 discovered: 2026-05-04
 source: discover
+curated: 2026-08-20
 n_requested: 10
 n_returned: 10
 ---
@@ -86,3 +87,21 @@ at the bottom.
 - type: paper
 - summary: Controlled comparison evaluating MDM vs. AR LMs at matched compute, isolating where each paradigm wins or loses; provides cleaner head-to-head numbers than scattered single-model claims.
 - reason: Useful methodological reference. Any project experiment that argues "latent/non-AR helps" needs a rigorous controlled comparison rather than an apples-to-oranges scaling claim — this paper is a template for that.
+
+## Curation
+
+Curated 2026-08-20. All ten entries were already resolved into the graph by
+the ingest pass that followed `/discover`.
+
+1. LLaDA — already in graph → `nie2025large`
+2. SEDD — already in graph → `lou2024discrete`
+3. MDLM — already in graph → `sahoo2024simple`
+4. DiffuCoder — already in graph → `gong2025diffucoder`
+5. Mercury — already in graph → `khanna2025mercury`
+6. Dream-Coder 7B — already in graph → `xie2025dream`
+7. ReFusion — already in graph → `li2026refusion`
+8. Awesome-DLMs — already in graph → `literature/repos/vila-awesome-dlms.md`
+9. Discrete Diffusion survey — already in graph → `yu2025discrete`
+10. AR vs. Masked Diffusion controlled comparison — already in graph → `vicentino2026autoregressive`
+
+ingested=0 declined=0 dup=10
