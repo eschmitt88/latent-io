@@ -3,6 +3,7 @@ kind: candidates
 topic: "tool-use as continuous primitives"
 discovered: 2026-05-04
 source: discover
+curated: 2026-08-20
 n_requested: 10
 n_returned: 10
 ---
@@ -85,3 +86,28 @@ literature next; named priors and surveys at the bottom.
 - type: paper
 - summary: Recent VLA survey covering how vision-language-action backbones incorporate latent actions as bottleneck/mid-level interface layers, latent action queries, and the diffusion-based action heads commonly bolted on top.
 - reason: The most relevant survey for understanding architectural patterns at the latent-action / token boundary. Directly informs the question of *where* in the model the latent–token transition should sit, which is the membrane in design-move 4.
+
+## Curation
+
+Curated 2026-08-20. Nine of ten entries were already resolved into the graph
+by the ingest pass that followed `/discover`; the tenth is declined.
+
+1. Differentiable Cache Augmentation — already in graph → `liu2024deliberation`
+2. Genie — already in graph → `bruce2024genie`
+3. LAPA — already in graph → `ye2024latent`
+4. CLAM — already in graph → `liang2025clam`
+5. LAOM — already in graph → `nikulin2025latent`
+6. Toolformer — already in graph → `schick2023toolformer`
+7. What Do Latent Action Models Actually Learn? — already in graph → `zhang2025what`
+8. AdaWorld — already in graph → `gao2025adaworld`
+9. Tool learning with language models (survey) — **declined** — full text is
+   not retrievable (Springer serves a bot challenge; no open-access PDF or
+   arXiv mirror), so `/fetch-paper` cannot produce a usable artifact. The
+   token-emitted end of the tool-use spectrum is already anchored by
+   `schick2023toolformer` (the reference regime) and `guan2025efficient`
+   (architectural patterns at the latent–token boundary), so the marginal
+   value of a paywalled survey is low. Revisit only if a benchmark survey
+   becomes load-bearing for an experiment.
+10. Efficient VLA Models (survey) — already in graph → `guan2025efficient`
+
+ingested=0 declined=1 dup=9
