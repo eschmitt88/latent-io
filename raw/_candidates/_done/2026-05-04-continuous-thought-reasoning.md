@@ -3,6 +3,7 @@ kind: candidates
 topic: "continuous-thought reasoning (Coconut, pause tokens)"
 discovered: 2026-05-04
 source: discover
+curated: 2026-08-20
 n_requested: 10
 n_returned: 10
 ---
@@ -83,3 +84,21 @@ analyses and surveys at the bottom.
 - type: paper
 - summary: Theoretical analysis arguing that Coconut-style continuous thoughts implement a form of superposition over reasoning paths, providing the formal grounding for why latent BFS outperforms greedy token CoT on planning tasks.
 - reason: Theoretical anchor for the load-bearing claim that latent representations have computational properties tokens don't. Important for writing the project's `concepts/latent-query.md` and `commitment-boundary.md` notes with grounded claims rather than intuitions.
+
+## Curation
+
+Curated 2026-08-20. All ten entries were already resolved into the graph by
+the ingest pass that followed `/discover`.
+
+1. Coconut — already in graph → `hao2024training`
+2. Recurrent-depth latent reasoning — already in graph → `geiping2025scaling`
+3. Pause tokens — already in graph → `goyal2024think`
+4. SpiralThinker — already in graph → `piao2025spiralthinker`
+5. A Survey on Latent Reasoning — already in graph → `zhu2025survey`
+6. System-1.5 Reasoning — already in graph → `wang2025system`
+7. Compressed Chain of Thought — already in graph → `cheng2024compressed`
+8. Implicit CoT via Knowledge Distillation — already in graph → `deng2023implicit`
+9. CODI — already in graph → `shen2025codi`
+10. Reasoning by Superposition — already in graph → `zhu2025reasoning`
+
+ingested=0 declined=0 dup=10

@@ -89,3 +89,4 @@ skills; read by `/lint`.
 2026-05-11 20:12 session_end session=ab179471-564c-4c93-9654-904b43f8dee4
 2026-05-11 20:15 session_end session=88278404-a021-4790-b778-d99714564afe
 2026-08-20 01:54 curate 2026-05-04-latent-retrieval.md ingested=0 declined=0 dup=10
+2026-08-20 01:55 curate 2026-05-04-continuous-thought-reasoning.md ingested=0 declined=0 dup=10
