@@ -3,6 +3,7 @@ kind: candidates
 topic: "latent retrieval (RETRO, Atlas, kNN-LM)"
 discovered: 2026-05-04
 source: discover
+curated: 2026-08-20
 n_requested: 10
 n_returned: 10
 ---
@@ -83,3 +84,21 @@ required reading. Bottom entries broaden the field of view.
 - type: paper
 - summary: Recent survey covering parametric memory, in-context memory, and retrieval-augmented memory across LLMs; includes evaluation protocols and evolution of memory architectures.
 - reason: Cheap orientation read to surface prior art the discover sweep missed (especially around long-term and episodic-memory variants). Useful for building the concept-graph rather than for direct experimental reference.
+
+## Curation
+
+Curated 2026-08-20. Every entry in this file was already resolved into the
+graph by the ingest pass that followed `/discover`; nothing new to fetch.
+
+1. CLaRa — already in graph → `he2025bridging`
+2. LAnR — already in graph → `lan2026latent`
+3. GAG — already in graph → `li2026generation`
+4. RETRO — already in graph → `borgeaud2022improving`
+5. Atlas — already in graph → `izacard2022atlas`
+6. kNN-LM — already in graph → `khandelwal2020generalization`
+7. MLP Memory — already in graph → `wei2025mlp`
+8. Universal Emergent Mechanism for Retrieval — already in graph → `variengien2025look`
+9. apple/ml-clara — already in graph → `literature/repos/apple-ml-clara.md`
+10. Memory in LLMs (survey) — already in graph → `zhang2025memory`
+
+ingested=0 declined=0 dup=10
