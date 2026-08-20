@@ -92,3 +92,4 @@ skills; read by `/lint`.
 2026-08-20 01:55 curate 2026-05-04-continuous-thought-reasoning.md ingested=0 declined=0 dup=10
 2026-08-20 01:55 curate 2026-05-04-tool-use-continuous.md ingested=0 declined=1 dup=9
 2026-08-20 01:55 curate 2026-05-04-diffusion-language-models.md ingested=0 declined=0 dup=10
+2026-08-20 01:56 promote-moc membrane (7 concepts)
