@@ -5,7 +5,13 @@ principles; this file refines them for this project.
 
 ## What this project is about
 
-One or two sentences. Fill in when the project stops being exploratory.
+Model I/O as a selective membrane between latent reasoning and the external
+world. Every retrieval / tool / file round-trip today goes through tokens; the
+bet is that tokens are only load-bearing at commitment and external-tool
+boundaries, and that pushing the token boundary outward buys efficiency and
+capability. Design moves: latent queries against a latent index, uncertainty-
+triggered retrieval, retrieval as a layer, latent action–observation traces.
+See `NOTES.md` (2026-05-04) for the full framing and `concepts/` for the atoms.
 
 ## Layout (see user CLAUDE.md for the full rationale)
 
