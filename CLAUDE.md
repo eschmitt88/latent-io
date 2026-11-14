@@ -25,12 +25,8 @@ See `NOTES.md` (2026-05-04) for the full framing and `concepts/` for the atoms.
 
 ## Scoped rules
 
-Detailed conventions live in `.claude/rules/` and are auto-loaded when you
-touch matching paths:
-
-@.claude/rules/experiments.md
-@.claude/rules/notebooks.md
-@.claude/rules/data.md
+Detailed conventions live in `.claude/rules/`. Each loads on its own when
+you read or edit a matching path (its `paths:` frontmatter).
 
 ## Budget & compute
 
